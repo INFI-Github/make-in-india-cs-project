@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&display=swap');
+
+.content{
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+h1{
+    font-family: "jetbrains mono";
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: center;
+    
+}
+
+.nav-back-button {
+    background-color: #FFFFFF;
+    border: 0;
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: #111827;
+    font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: .875rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    padding: .75rem 1rem;
+    text-align: center;
+    text-decoration: none #D1D5DB solid;
+    text-decoration-thickness: auto;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    
+  }
+  
+  .nav-back-button:hover {
+    background-color: rgb(249,250,251);
+  }
+  
+  .nav-back-button:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+  }
+  
+  .nav-back-button:focus-visible {
+    box-shadow: none;
+  }
+  
+  .arrow-image-style{
+      width: 20px;
+      height: 20px;
+  }
